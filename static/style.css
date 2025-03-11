@@ -85,6 +85,13 @@ main {
 .visitor-list .list-button {
     width: 80%;
 }
+.staff-list .list-button:hover {
+    background-color: #ddd;
+}
+.list-button.presence-none:hover {
+    background-color: #d6d6d6;
+}
+
 /* Style the button with a greenish look */
 .presence-true, .list-button.presence-true, .visitor-list-report:nth-child(even).presence-true {
     background-color: #88c98b;
@@ -106,13 +113,6 @@ main {
 /* Style the button with a grey look */
 .presence-none, .list-button.presence-none {
     background-color: #ebebeb;
-}
-
-.list-button.presence-none:hover {
-    background-color: #d6d6d6;
-}
-.staff-list .list-button:hover {
-    background-color: #ddd;
 }
 
 .staff-list .list-button .name,  .visitor-list .list-button .name{  
